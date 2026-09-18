@@ -20,7 +20,7 @@ jobs:
       - name: Extract RemoteCamV2 project
         run: |
           mkdir extracted
-          unzip -q RemoteCamV2-fixed.zip -d extracted
+          unzip -q RemoteCamV2-fixed2.zip -d extracted
           ls -la extracted/RemoteCamV2
 
       - name: Set up Java 17
